@@ -3,7 +3,7 @@ About pyvtk
 
 Home: https://github.com/pearu/pyvtk
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyvtk-feedstock/blob/master/LICENSE.txt)
 
