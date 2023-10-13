@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -38,11 +38,11 @@ test:
 
 about:
   home: https://github.com/pearu/pyvtk
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
-  #license_file: LICENSE
-  # [I have requested a LICENSE from the author,
-  # https://github.com/pearu/pyvtk/issues/13]
+  # included in post-0.5.18 "master" branch
+  # https://github.com/pearu/pyvtk/issues/13
+  license_file: LICENSE
   summary: PyVTK tools for manipulating Visualization Toolkit (VTK) files in Python
   doc_url: https://github.com/pearu/pyvtk/tree/master/examples
   dev_url: https://github.com/pearu/pyvtk
